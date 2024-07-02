@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.image{
+    display: inline-block;
+    /* transform: rotate(30deg); */
+    /* height: 1000px; */
+    height: 810px;
+    width: 100vw;
+    background: url('https://cdn5.vectorstock.com/i/1000x1000/65/54/cute-anime-girl-in-black-hoodie-and-green-eyes-vector-39706554.jpg  ');
+    /* height: 100%; */
+    background-repeat: no-repeat;
+    width: 30%;
+    /* background-size: 100%; */
+}
+.yellow{
+    background-color: #7a474f;
+    height: 810px;
+
+}
+.fa-quote-right{
+    position: relative;
+    left: 630px;
+  
+}
+.box{
+    border: 0px solid black;
+    /* height: 353px; */
+    width: 705px;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: white;
+}
+.anime{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    letter-spacing: 3px;
+    font-size: 45px;
+    height: 80px;
+    font-weight: bolder;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-b6HfspB4mi62wq1JieIEhXhMn_cm1wyxqQ&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+hr{
+    background-color: gray;
+    height: px;
+    margin: 0px;
+   
+}
+
+.comma{
+    font-size: 15px;
+    color:black;
+}
+.quote{
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:#b83d39;
+    font-weight: bolder;
+    text-align: center;
+    /* padding: 22px; */
+}
+.author{
+    font-family: 'Poppins', sans-serif;
+    margin: -7px 5px 0 0;
+    font-style: italic;
+    color:#b83d39;
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+  }
+.buttons .features{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .features ul{
+    display: flex;
+  }
+  .features ul li{
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    cursor: pointer;
+    color: #7a474f;
+    list-style: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #7a474f;
+    transition: all 0.3s ease;
+  }
+  .features ul li:first-child{
+    margin-left: 0;
+  }
+  ul li:is(:hover, .active){
+    color: #fff;
+    background: #7a474f;
+  }
+  ul .speech.active{
+    pointer-events: none;
+  }
+  .buttons button{
+    border: none;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background: #7a474f;
+  }
+  .buttons button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+  }
